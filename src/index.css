@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  font-family: 'arial';
+  color: #333;
+}
+
+* :focus {
+  outline: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.frm {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  padding: 50px;
+}
+
+.submit {
+  width: fit-content;
+  min-width: 75px;
+  padding: 8px;
+  color: #ffffff;
+  background-color: #f1356d;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.submit:hover {
+  background-color: #df285f;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputRow label {
+  flex: 1;
+}
+
+.inputRow input {
+  margin: 20px;
+  margin-bottom: 0px;
+  border: none;
+  border-bottom: 1px solid #e0dcdc;
+  flex: 1;
+}
+
+.addRow {
+  display: flex;
+  flex-direction: column;
+}
+.addRow label {
+  margin: 10px;
+  margin-left: 0px;
+
+}
+
+.addRow input {
+  margin: 10px;
+  margin-left: 0px;
+  width: 200px;
+}
+
+.addRow textarea {
+  margin: 10px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.errorMsg {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  align-self: flex-end;
+}
+
+.errorMsg .wrong {
+  color: #f1356d;
+} 
+
+.errorMsg .right {
+  color: #55e596;
+} 
+
+.formError {
+  color: #f1356d;
+  margin-top: 20px;
+}
+
+.userHomePage {
+  margin: auto;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.file {
+  border-left: 10px solid rgb(210, 210, 210);
+  border-bottom: 10px solid #f1356d;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-top: 30px;
+}
+
+.file:hover {
+  background-color: #f2f1f1;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+
+}
+.username {
+  flex: 1;
+  border-bottom: 1px solid #e0dcdc;
+  margin-right: 50px;
+}
+
+.title {
+  margin: 20px;
+}
+
+.text {
+  margin: 20px;
+}
+
+.fileFull {
+  word-wrap: break-word
+
+}
+
+.filetitle {
+  margin-top: 20px;
+}
+
+.filetext {
+  margin-top: 20px;
+}
+
+.qrcode {
+  height:auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.thecode {
+  height: auto;
+  width: 150px;
+}
+
+.textAndCode {
+  display: flex;
+  flex-direction: row;
+}
+
