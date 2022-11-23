@@ -63,7 +63,7 @@ function LoginForm({setLoading, formError, setFormError, setSuccess}) {
             />
         </div>
 
-        <input className='submit' type="button" value="Submit" onClick={submitForm}/>
+        <input style={{marginTop:"20px"}} className='submit' type="button" value="Submit" onClick={submitForm}/>
         {formError && <p className='formError'>no such user</p>}
     </form>
   );

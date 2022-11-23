@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'arial';
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #333;
 }
 
@@ -9,21 +9,25 @@
 }
 
 .App {
-  max-width: 600px;
   margin: auto;
 }
 
 .navbar {
-  padding: 20px;
+  padding: 28px;
   display: flex;
   align-items: center;
-  max-width: 600px;
   margin: 0 auto;
+  background-color: #e7dbdb;
   border-bottom: 1px solid #f2f2f2;
 }
 
 .navbar h1 {
   color: #f1356d;
+  cursor: pointer;
+}
+
+.navbar h1:hover {
+  color: #f1356d87;
 }
 
 .navbar .links {
@@ -33,23 +37,32 @@
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f1356d97;
+  border-radius: 20px;
+  color: #fff;
 }
 
 .navbar a:hover {
   color: #f1356d;
+  background-color: #fff;
 }
 
 .frm {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
+  max-width: 450px;
   margin: auto;
   padding: 50px;
+  border: #f1356d 1px solid;
+  border-radius: 20px;
+  margin-top: 50px;
 }
 
 .submit {
-  width: fit-content;
   min-width: 75px;
   padding: 8px;
   color: #ffffff;
@@ -60,10 +73,11 @@
   text-align: center;
   font-size: 12px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .submit:hover {
-  background-color: #df285f;
+  background-color: #df285f8f;
 }
 
 .row {
@@ -84,8 +98,13 @@
   margin: 20px;
   margin-bottom: 0px;
   border: none;
-  border-bottom: 1px solid #e0dcdc;
+  border-bottom: 2px solid #e6d3d3;
   flex: 1;
+  font-size: medium;
+}
+
+.inputRow input:focus {
+  border: 2px solid #f1356d;
 }
 
 .addRow {
