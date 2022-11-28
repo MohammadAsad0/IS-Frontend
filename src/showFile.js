@@ -78,7 +78,8 @@ function ShowFile() {
                     <h2>Title: {state.file.title}</h2>
                 </div>
                     <div className='filetext'>
-                        <h4>Body: </h4>
+                        <h4>Decrypted Text: </h4>
+                        <br />
                         <div>{state.file.encryptedText}</div>
                     </div>
             </div>

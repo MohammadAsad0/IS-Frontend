@@ -162,6 +162,8 @@
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: 30px;
+  border-top: rgb(210, 210, 210) 1px solid;
+  cursor: pointer;
 }
 
 .file:hover {
@@ -172,7 +174,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 30px;
-
+  margin: 30px;
 }
 .username {
   flex: 1;
@@ -194,11 +196,12 @@
 }
 
 .filetitle {
-  margin-top: 20px;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .filetext {
-  margin-top: 20px;
+  margin: 20px 100px;
 }
 
 .qrcode {

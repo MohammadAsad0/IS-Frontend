@@ -56,7 +56,7 @@ function LoginForm({setLoading, formError, setFormError, setSuccess}) {
         </div>
 
         <div className='inputRow'>
-            <label htmlFor="password">QR PASSWORD:</label>
+            <label htmlFor="password">PASSWORD:</label>
             <input type="password" id="password" name="password" 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
